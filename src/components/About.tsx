@@ -102,11 +102,11 @@ const About = () => {
             transition={{ duration: 0.9 }}
             viewport={{ once: true }}
           >
-            <div className="w-full h-[400px] rounded-2xl overflow-hidden shadow-2xl relative group">
+            <div className="w-full rounded-2xl overflow-hidden shadow-2xl relative group">
               <img 
                 src={gurgaoImg}
                 alt="About T and T Realty" 
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                className="w-full h-auto max-h-[400px] md:max-h-[350px] sm:max-h-[300px] object-cover group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
             </div>
